@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "mod.tjt01.globalserverconfig.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "global_server_config.refmap.json",
+  "mixins": [
+    "ServerLifecycleHooksMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
